@@ -43,7 +43,7 @@ body {
 #inicio {
 	width: 100%;
 	padding-top: 150px;
-	background: url(../img/inicio2.png) no-repeat #2b0a51;
+	background: url(../img/inicio2.png) no-repeat;
 	height: 350px;
 	background-size: 100% 100%;
 }
@@ -60,7 +60,7 @@ body {
 #inicio p {
 	font-family: 'Open Sans';
 	font-weight: 300;	
-	width: 660px;
+	width: 600px;
 	text-shadow:1px 1px 0px #000;
 	margin:5px 0px;
 	font-size: 20px;
@@ -118,6 +118,15 @@ body {
 	line-height: 20px;
 }
 
+#about a {
+  color: #009CDE;
+	text-decoration: none;
+}
+
+#about a:hover {
+  color: white;
+}
+
 #about h3 {
 	font-family: 'BebasRegular';
 	font-size: 16px;
@@ -139,7 +148,7 @@ body {
 }
 
 #participantes li p {
-	width: 200px;
+	width: 300px;
 	padding-left: 20px;
 	display: inline-block;
 	position: relative;
@@ -196,7 +205,7 @@ body {
 }
 
 
-#sponsors {
+#partners {
 	background: #205a8c;
 	text-align: center;
 	text-shadow:1px 1px 0px rgba(255,255,255,.1);
@@ -207,7 +216,7 @@ body {
 	text-transform: uppercase;
 }
 
-#sponsors h2 {
+#partners h2 {
 	margin: 0px;
 	padding: 20px;
 	color: #fff;
@@ -216,7 +225,7 @@ body {
 	font-weight: normal;
 }
 
-#sponsors img {
+#partners img {
 	padding: 10px;
 }
 
@@ -347,6 +356,14 @@ font-weight: bold;
 
 #footer span {
 	padding: 0px 5px;
+}
+#footer a {
+  color: #009CDE;
+	text-decoration: none;
+}
+
+#footer a:hover {
+  color: white;
 }
 
 .wrap {
