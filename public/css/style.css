@@ -284,7 +284,7 @@ nav {
 	background: -ms-linear-gradient(-45deg, #b8b7be 0%,#ffffff 100%);
 	background: linear-gradient(135deg, #b8b7be 0%,#ffffff 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8b7be', endColorstr='#ffffff',GradientType=1 );
-	padding: 200px 50px;
+	padding: 100px 50px;
 	color: #000;
 	font-family: rial, Helvetica, sans-serif;
 }
@@ -356,7 +356,7 @@ nav {
 
 #faqs {
 	background:url(../img/noise.png) #252525;
-	padding: 200px 50px;
+	padding: 100px 50px;
 	font-size: 16px;
 	color: #e7e7e7;
 }
@@ -377,18 +377,12 @@ font-weight: bold;
 }
 
 #faqs a {
-	color: #fff;
-	background: #1a1f4c;
-	padding: 1px 3px;
+  color: #009CDE;
 	text-decoration: none;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-o-border-radius:3px;
-	border-radius:3px;
 }
 
 #faqs a:hover {
-	background: #5363ff;
+  color: white;
 }
 
 
