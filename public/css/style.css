@@ -1,5 +1,10 @@
+* {
+	-webkit-transition: all .2s ease;
+}
+
 body {
 	color: #fff;
+	background:url(../img/noise.png) #fff;
 }
 
 
@@ -89,10 +94,6 @@ nav {
 	font-family: 'BebasRegular';
 }
 
-#liquid {
-	position: absolute;
-	top:385px;
-}
 
 #social {
 	background: background: #36a9e7;
@@ -123,7 +124,6 @@ nav {
 
 #about {
 	background:url(../img/noise.png)#252525;
-	
 	font-family: 'Open Sans', sans-serif;
 	padding: 100px 50px;
 	text-shadow:1px 1px 0px #000;
@@ -174,19 +174,17 @@ nav {
 	top: -25px;
 }
 
-#diseñador {
+#disenador {
 	position: relative;
 	top: -20px;
 }
 
 #info {
 	background:url(../img/noise.png) #205a8c;
-	
 	font-family: 'Open Sans', sans-serif;
 	padding: 100px 50px;
 	text-shadow:1px 1px 0px #000;
 	font-size: 16px;
-
 }
 
 #info a {
@@ -352,6 +350,73 @@ nav {
 	font-weight: normal;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+#invitados {
+	padding: 100px 50px;
+	width: 860px;
+	margin: 0 auto;
+	color: #000;
+}
+
+.invitado {
+	display: inline-block;
+	width: 450px;
+	position: relative;
+	padding-top: 20px;
+	margin-left: 25px;
+}
+
+.invitado:hover >  img{
+	opacity: .8;
+	box-shadow:0px 0px 0px 5px #009cf6;
+	cursor: help;
+}
+
+.invitado:hover >  p{
+	background: rgba(0,0,0,.8);
+}
+
+.invitado img {
+	width: 150px;
+	height: auto;
+	border-radius: 50%;
+	border: 10px solid rgba(255,255,255,.2);
+	box-shadow:0px 0px 10px 0px rgba(0,0,0,.5);
+}
+
+.invitado span {
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	border-radius: 5px 5px 0px 5px;
+	padding: 10px;
+	position: absolute;
+	top:110px;
+	left:-65px;
+}
+
+.invitado a {
+	color: #000;
+	font-weight: bold;
+	border-radius: 0px 0px 5px 5px;
+	position: absolute;
+	background: #009cf6;
+	padding: 5px;
+	top:145px;
+	left: -38px;
+}
+
+.invitado p {
+	display: inline-block;
+	font-size: 11px;
+	width: 190px;
+	background: rgba(0,0,0,.3);
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	position: absolute;
+	top:73px;
+	left: 177px;
 }
 
 #faqs {
