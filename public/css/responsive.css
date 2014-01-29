@@ -1,0 +1,75 @@
+@media (max-width: 900px) {
+	
+	.quote {
+		margin: 0 auto;
+		width: 80%;
+	}
+
+	.social {
+		position: fixed;
+		top: 0px;
+		right: 0px;
+	}
+
+	.intro-container {
+		font-size: 18px;
+	}
+
+	.container {
+		width: 90% !important;
+	}
+
+	.column, .step {
+		display: block !important;
+	}
+
+	.on-2, .step {
+		width: 100% !important;
+	}
+
+	#participantes-tipos .column {
+		padding: 0px !important;
+	}
+
+	.step {
+		padding: 20px 0px !important;
+		margin: 10px 0px;
+	}
+
+	.step p {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.social a {
+		display: none;
+	}
+
+	#intro {
+		height: 1000px;
+	}
+	.logo {
+		width: 50% !important;
+	}
+
+	.quote {
+		width: 100%;
+		text-align: center;
+	}
+
+	.quote span {
+		display: block;
+		margin: 10px 0px;
+	}
+
+	.quote .info span {
+		padding: 0px;
+	}
+
+	.intro-container {
+		font-size: 18px;
+	}
+
+}
