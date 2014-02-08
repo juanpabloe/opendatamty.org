@@ -212,13 +212,15 @@ h1 , h2 , h3 {
 	-webkit-filter: grayscale(0);
 }
 
-.mentor span {
+.mentor a {
 	background: #f7bc1e;
 	display: block;
 	margin-top: -5px;
 	padding: 10px 0px;
 	font-family: Bebas, sans-serif;
 	letter-spacing: 3px;
+  text-decoration: none;
+  color: #000;
 }
 
 .mentor .link {
