@@ -248,6 +248,10 @@ h1 , h2 , h3 {
 	padding: 10px 0px;
 }
 
+#footer img {
+  width: 250px;
+}
+
 @font-face { font-family: Bebas; src: url('../fonts/bebasneuebook.otf'); }
 @font-face { font-family: Bebas; font-weight: 600; src: url('../fonts/bebasneueregular.otf.otf'); }
 @font-face { font-family: Bebas; font-weight: 100; src: url('../fonts/bebasneuelight.otf'); }
