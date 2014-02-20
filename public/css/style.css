@@ -186,6 +186,11 @@ h1 , h2 , h3 {
 	font-weight: 400;
 }
 
+#participantes-pasos .step a:hover {
+	color: #fff;
+	font-weight: 400;
+}
+
 #registro {
 	background: #f7bc1e;
 }
