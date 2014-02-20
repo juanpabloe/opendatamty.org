@@ -258,6 +258,10 @@ h1 , h2 , h3 {
   margin: 0 20px;
 }
 
+#faq span {
+  font-weight: bold;
+}
+
 #footer {
 	background: #000;
 	color: #fff;
