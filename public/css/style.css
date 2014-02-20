@@ -181,6 +181,11 @@ h1 , h2 , h3 {
 	display: inline-block;
 }
 
+#participantes-pasos .step a {
+	color: #fff;
+	font-weight: 400;
+}
+
 #registro {
 	background: #f7bc1e;
 }
